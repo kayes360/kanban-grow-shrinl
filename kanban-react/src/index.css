@@ -1,0 +1,14 @@
+ 
+.w-15 {
+  width: 15%;
+}
+.w-85 {
+  width: 85%;
+} 
+.column-width {
+  min-width: 400px;
+}
+.card-item-container {
+    height: 600px;
+  }
+   
