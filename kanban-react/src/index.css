@@ -5,6 +5,10 @@
 .w-85 {
   width: 85%;
 } 
+@media (min-width: 768px)
+.w-md-85 {
+    width: 85%;
+  } 
 .column-width {
   min-width: 400px;
 }
@@ -12,3 +16,9 @@
     height: 600px;
   }
    
+  .kanbancolumnwrapper{
+    height: calc(100vh - 130px); 
+  }
+  .single-column{
+    flex-grow: 1;
+  }

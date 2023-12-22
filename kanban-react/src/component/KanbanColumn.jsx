@@ -3,7 +3,7 @@ import CardItem from "./CardItem";
 
 export default function KanbanColumn() {
   return (
-<div className="column-width h-100">
+<div className="column-width h-100 single-column">
     
         <div className="bg-primary-subtle p-2 d-flex flex-column h-100">
           <div className="alert alert-dark" role="alert">
