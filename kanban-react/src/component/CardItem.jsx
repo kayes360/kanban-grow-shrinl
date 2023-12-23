@@ -1,16 +1,14 @@
-import React from 'react'
+import React from "react";
 
 export default function CardItem() {
   return (
-    <div className="card">
-  <div className="card-header">
-    Featured
-  </div>
-  <div className="card-body">
-    <h5 className="card-title">Special title treatment</h5>
-    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-  )
+    <div className="bg-white mb-1 p-2 rounded border">
+      <p className="mb-0">Featured</p>
+      <p className="mb-0">Special title treatment</p>
+      <p className="mb-0">
+        With supporting text below as a natural lead-in to additional content.
+      </p>
+      <p className="mb-0">Go somewhere </p>
+    </div>
+  );
 }
